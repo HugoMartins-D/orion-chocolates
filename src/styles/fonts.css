@@ -1,0 +1,117 @@
+/* DM Sans is loaded only as an interim stand-in for Creato Display (see
+   below) — the site's two intended fonts are Vesper Nocturne and Creato
+   Display everywhere else. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Vesper Nocturne — the brand's real display font (a single Regular cut),
+   used for every heading. Not on Google Fonts, so it's self-hosted from the
+   local .ttf. */
+@font-face {
+  font-family: 'Vesper Nocturne';
+  src: url('../assets/fonts/vesper-nocturne-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Creato Display — the brand's UI/body font everywhere else. Self-hosted
+   from the local .otf files, full family: 7 weights, each with an italic.
+   DM Sans (above) remains only as the loading/fallback stand-in. */
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../assets/fonts/creato/CreatoDisplay-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
