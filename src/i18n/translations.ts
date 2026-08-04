@@ -147,6 +147,7 @@ const pt = {
     ],
     ctaText: "Quer conhecer os chocolates que essa história produziu?",
     ctaButton: "Conheça nossos produtos",
+    imagePlaceholder: "imagem",
   },
   qualidade: {
     titleLine1: "Qualidade",
@@ -322,6 +323,7 @@ const en: typeof pt = {
     ],
     ctaText: "Want to try the chocolates this story produced?",
     ctaButton: "Discover our products",
+    imagePlaceholder: "image",
   },
   qualidade: {
     titleLine1: "Quality",
@@ -497,6 +499,7 @@ const es: typeof pt = {
     ],
     ctaText: "¿Quieres conocer los chocolates que esta historia produjo?",
     ctaButton: "Conoce nuestros productos",
+    imagePlaceholder: "imagen",
   },
   qualidade: {
     titleLine1: "Calidad",

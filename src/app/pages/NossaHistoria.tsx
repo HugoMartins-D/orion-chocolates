@@ -30,6 +30,36 @@ type Milestone = Translations["nossaHistoria"]["milestones"][number];
 const ROAD_ICONS = [Sparkles, Factory, Tag, Waves, MapPin];
 const MVV_ICONS = [Target, Eye, HeartHandshake];
 
+// One slot per milestone (1958, 1974, 1978, 1980, 2010, in that order —
+// matches the fixed order of `nossaHistoria.milestones` in every language).
+// Drop a real photo in by replacing the corresponding `null` with an
+// `import imgX from "@/assets/images/..."`; until then each card renders a
+// placeholder so the layout is already there waiting for it.
+const MILESTONE_IMAGES: (string | null)[] = [
+  null, // 1958
+  null, // 1974
+  null, // 1978
+  null, // 1980
+  null, // 2010
+];
+
+function MilestoneImage({ src, alt, placeholderLabel }: { src: string | null; alt: string; placeholderLabel: string }) {
+  if (src) {
+    return <img src={src} alt={alt} className="mb-4 h-40 w-full rounded-xl object-cover" />;
+  }
+  return (
+    <div
+      className="mb-4 flex h-40 w-full items-center justify-center rounded-xl"
+      style={{ border: `1px dashed ${DARK_HOVER_BORDER}66` }}
+      aria-hidden
+    >
+      <span className="text-xs" style={{ fontFamily: DM_SANS, color: DARK_MUTED }}>
+        {placeholderLabel}
+      </span>
+    </div>
+  );
+}
+
 // Catmull-Rom -> cubic Bézier: builds a smooth curve through every waypoint
 // (as opposed to a Bézier fit that only approximates them), so the road
 // always passes exactly through each milestone's anchor point.
@@ -104,6 +134,7 @@ function RoadTimeline({ milestones }: { milestones: Milestone[] }) {
   const pathRef = useRef<SVGPathElement>(null);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
   const STEM_LENGTHS = stemLengths(milestones.length);
+  const { t } = useLanguage();
 
   // Card copy is real content now, not filler — its length (and therefore
   // each card's rendered height) isn't predictable, so fixed y-spacing
@@ -283,6 +314,7 @@ function RoadTimeline({ milestones }: { milestones: Milestone[] }) {
                 onMouseEnter={handleCardEnter}
                 onMouseLeave={handleCardLeave}
               >
+                <MilestoneImage src={MILESTONE_IMAGES[i]} alt={milestone.title} placeholderLabel={t.nossaHistoria.imagePlaceholder} />
                 <span
                   className="inline-block rounded-full bg-primary px-3 py-1 text-sm font-bold text-secondary"
                   style={{ fontFamily: DM_SANS }}
@@ -310,6 +342,7 @@ function RoadTimeline({ milestones }: { milestones: Milestone[] }) {
 function SimpleTimeline({ milestones }: { milestones: Milestone[] }) {
   const scope = useRef<HTMLDivElement>(null);
   const lineFillRef = useRef<HTMLDivElement>(null);
+  const { t } = useLanguage();
 
   useGSAP(
     () => {
@@ -398,7 +431,7 @@ function SimpleTimeline({ milestones }: { milestones: Milestone[] }) {
       />
 
       <ul className="flex flex-col gap-14">
-        {milestones.map((milestone) => (
+        {milestones.map((milestone, i) => (
           <li key={milestone.year} className="timeline-item relative pl-16">
             <span
               className="timeline-dot absolute top-1 left-[12px] z-10 block h-4 w-4 rounded-full bg-primary"
@@ -410,6 +443,7 @@ function SimpleTimeline({ milestones }: { milestones: Milestone[] }) {
               onMouseEnter={handleCardEnter}
               onMouseLeave={handleCardLeave}
             >
+              <MilestoneImage src={MILESTONE_IMAGES[i]} alt={milestone.title} placeholderLabel={t.nossaHistoria.imagePlaceholder} />
               <span
                 className="inline-block rounded-full bg-primary px-3 py-1 text-sm font-bold text-secondary"
                 style={{ fontFamily: DM_SANS }}
