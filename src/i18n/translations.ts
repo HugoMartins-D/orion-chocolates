@@ -172,6 +172,12 @@ const pt = {
     subtitle: "Faça parte da nossa história.",
     text: "Se você acredita na dedicação, no compromisso com a qualidade e na busca pela excelência, venha construir sua trajetória conosco. Faça parte da equipe Orion e cresça em uma empresa que há mais de seis décadas transforma chocolates finos em momentos especiais.",
     cta: "Envie seu currículo",
+    valuesTitle: "Por que trabalhar na Orion?",
+    values: [
+      { title: "Tradição", text: "Mais de 65 anos construindo uma marca reconhecida em Blumenau e região." },
+      { title: "Qualidade", text: "Um time comprometido com a excelência em cada etapa da produção." },
+      { title: "Propósito", text: "Ajude a levar momentos especiais através dos nossos chocolates finos." },
+    ],
   },
   produtosFlavors: {
     passas: { name: "PASSAS", tagline: ["ELEGANTE, MARCANTE", "E SURPREENDENTE."] as [string, string] },
@@ -348,6 +354,12 @@ const en: typeof pt = {
     subtitle: "Be part of our history.",
     text: "If you believe in dedication, a commitment to quality and the pursuit of excellence, come build your career with us. Join the Orion team and grow in a company that has turned fine chocolates into special moments for more than six decades.",
     cta: "Send your résumé",
+    valuesTitle: "Why work at Orion?",
+    values: [
+      { title: "Tradition", text: "More than 65 years building a brand recognized across Blumenau and beyond." },
+      { title: "Quality", text: "A team committed to excellence at every stage of production." },
+      { title: "Purpose", text: "Help bring special moments to people through our fine chocolates." },
+    ],
   },
   produtosFlavors: {
     passas: { name: "RAISINS", tagline: ["ELEGANT, BOLD", "AND SURPRISING."] },
@@ -524,6 +536,12 @@ const es: typeof pt = {
     subtitle: "Sé parte de nuestra historia.",
     text: "Si crees en la dedicación, el compromiso con la calidad y la búsqueda de la excelencia, ven a construir tu trayectoria con nosotros. Forma parte del equipo Orion y crece en una empresa que desde hace más de seis décadas convierte los chocolates finos en momentos especiales.",
     cta: "Envía tu currículum",
+    valuesTitle: "¿Por qué trabajar en Orion?",
+    values: [
+      { title: "Tradición", text: "Más de 65 años construyendo una marca reconocida en Blumenau y la región." },
+      { title: "Calidad", text: "Un equipo comprometido con la excelencia en cada etapa de la producción." },
+      { title: "Propósito", text: "Ayuda a llevar momentos especiales a través de nuestros chocolates finos." },
+    ],
   },
   produtosFlavors: {
     passas: { name: "PASAS", tagline: ["ELEGANTE, INTENSO", "Y SORPRENDENTE."] },
