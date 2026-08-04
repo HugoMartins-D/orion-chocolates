@@ -3,7 +3,7 @@ import { useLanguage } from "@/i18n/LanguageContext";
 // Pills auto-size to their own text (px padding, no fixed width) — a fixed
 // width tuned for the Portuguese copy would either clip or overflow the
 // English/Spanish translations, which run shorter or longer.
-const PILL = "inline-flex h-[47px] items-center justify-center whitespace-nowrap rounded-[23px] px-8 text-[20px] leading-[1.1]";
+const PILL = "inline-flex h-[47px] items-center justify-center whitespace-nowrap rounded-[14px] px-8 text-[20px] leading-[1.1]";
 
 export default function Hero() {
   const { t } = useLanguage();

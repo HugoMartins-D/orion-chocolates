@@ -106,7 +106,7 @@ export default function StoreLocator() {
           {t.storeLocator.lead}
         </p>
       </div>
-      <div className="absolute overflow-hidden bg-[#e29647] rounded-[106px] animate-g8" style={{ left: 264, top: 2949, width: 924, height: 560 }}>
+      <div className="absolute overflow-hidden bg-[#e29647] rounded-[48px] animate-g8" style={{ left: 264, top: 2949, width: 924, height: 560 }}>
         <StoreLocatorMap />
       </div>
     </div>

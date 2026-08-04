@@ -278,7 +278,7 @@ function RoadTimeline({ milestones }: { milestones: Milestone[] }) {
                 ref={(el) => {
                   cardRefs.current[i] = el;
                 }}
-                className="road-card-inner rounded-2xl border p-5"
+                className="road-card-inner rounded-xl border p-5"
                 style={{ borderColor: DARK_BORDER, background: DARK_CARD_BG, boxShadow: "0px 1px 2px 0px rgba(0,0,0,0.3)" }}
                 onMouseEnter={handleCardEnter}
                 onMouseLeave={handleCardLeave}
@@ -405,7 +405,7 @@ function SimpleTimeline({ milestones }: { milestones: Milestone[] }) {
               style={{ boxShadow: `0 0 0 4px ${DARK_BG}` }}
             />
             <div
-              className="timeline-card rounded-2xl border p-6 sm:p-8"
+              className="timeline-card rounded-xl border p-6 sm:p-8"
               style={{ borderColor: DARK_BORDER, background: DARK_CARD_BG, boxShadow: "0px 1px 2px 0px rgba(0,0,0,0.3)" }}
               onMouseEnter={handleCardEnter}
               onMouseLeave={handleCardLeave}
@@ -513,7 +513,7 @@ export default function NossaHistoria() {
             return (
               <div
                 key={title}
-                className="rounded-2xl border p-8 text-center"
+                className="rounded-xl border p-8 text-center"
                 style={{ borderColor: DARK_BORDER, background: DARK_CARD_BG }}
               >
                 <div
@@ -538,7 +538,7 @@ export default function NossaHistoria() {
           </p>
           <a
             href="/produtos"
-            className="mt-6 inline-flex h-12 items-center justify-center rounded-full bg-primary px-8 font-bold text-secondary transition-opacity hover:opacity-90"
+            className="mt-6 inline-flex h-12 items-center justify-center rounded-[14px] bg-primary px-8 font-bold text-secondary transition-opacity hover:opacity-90"
             style={{ fontFamily: DM_SANS }}
           >
             {t.nossaHistoria.ctaButton}

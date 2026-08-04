@@ -1,7 +1,7 @@
 import imgArteOrionHistoria from "@/assets/images/arte-orion-historia.png";
 import { useLanguage } from "@/i18n/LanguageContext";
 
-const PILL = "inline-flex h-[47px] items-center justify-center whitespace-nowrap rounded-[23px] px-8 text-[20px] leading-[1.1]";
+const PILL = "inline-flex h-[47px] items-center justify-center whitespace-nowrap rounded-[14px] px-8 text-[20px] leading-[1.1]";
 
 export default function History() {
   const { t } = useLanguage();

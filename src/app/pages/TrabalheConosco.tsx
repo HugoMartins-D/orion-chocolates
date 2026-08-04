@@ -47,7 +47,7 @@ export default function TrabalheConosco() {
         </h1>
 
         <div className="mt-20 grid items-start gap-x-16 gap-y-12 md:grid-cols-2">
-          <div className="fade-in h-80 overflow-hidden rounded-2xl">
+          <div className="fade-in h-80 overflow-hidden rounded-xl">
             <img
               alt="Uma das primeiras funcionárias da Orion trabalhando na produção artesanal dos chocolates"
               src={imgPrimeiraFuncionaria}
@@ -67,7 +67,7 @@ export default function TrabalheConosco() {
             </p>
             <a
               href="mailto:contato@orionchocolates.com.br?subject=Currículo"
-              className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-[#251116] px-8 font-bold text-[#e29647] transition-opacity hover:opacity-90"
+              className="mt-8 inline-flex h-12 items-center justify-center rounded-[14px] bg-[#251116] px-8 font-bold text-[#e29647] transition-opacity hover:opacity-90"
               style={{ fontFamily: DM_SANS }}
             >
               Envie seu currículo

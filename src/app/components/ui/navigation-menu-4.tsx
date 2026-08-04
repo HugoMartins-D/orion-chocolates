@@ -58,7 +58,7 @@ function LanguageSwitcher({ className = "" }: { className?: string }) {
           {language.toUpperCase()}
         </Button>
       </PopoverTrigger>
-      <PopoverContent align="end" className="w-44 rounded-2xl border-0 bg-primary p-1.5 shadow-lg">
+      <PopoverContent align="end" className="w-44 rounded-xl border-0 bg-primary p-1.5 shadow-lg">
         <ul className="flex flex-col gap-0.5">
           {LANGUAGE_OPTIONS.map((option) => (
             <li key={option}>
@@ -97,7 +97,7 @@ function DesktopLinks({ links }: { links: NavLink[] }) {
                 >
                   {link.label}
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="group-data-[viewport=false]/navigation-menu:rounded-2xl group-data-[viewport=false]/navigation-menu:border-0 group-data-[viewport=false]/navigation-menu:bg-primary group-data-[viewport=false]/navigation-menu:shadow-lg">
+                <NavigationMenuContent className="group-data-[viewport=false]/navigation-menu:rounded-xl group-data-[viewport=false]/navigation-menu:border-0 group-data-[viewport=false]/navigation-menu:bg-primary group-data-[viewport=false]/navigation-menu:shadow-lg">
                   <ul className="grid w-72 gap-1 p-5">
                     {link.items.map((item, itemIndex) => (
                       <li key={itemIndex}>

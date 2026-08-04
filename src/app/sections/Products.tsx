@@ -3,7 +3,7 @@ import imgProdutoOrion2 from "@/assets/images/produto-orion-2.png";
 import imgProdutoOrion3 from "@/assets/images/produto-orion-3.png";
 import { useLanguage } from "@/i18n/LanguageContext";
 
-const PILL = "inline-flex h-[47px] items-center justify-center whitespace-nowrap rounded-[23px] px-8 text-[20px] leading-[1.1]";
+const PILL = "inline-flex h-[47px] items-center justify-center whitespace-nowrap rounded-[14px] px-8 text-[20px] leading-[1.1]";
 
 export default function Products() {
   const { t } = useLanguage();
@@ -30,13 +30,13 @@ export default function Products() {
         </div>
       </div>
 
-      <div className="absolute h-[475px] rounded-[125px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] overflow-hidden animate-g5" style={{ left: 129, top: 1620, width: 380 }}>
+      <div className="absolute h-[475px] rounded-[48px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] overflow-hidden animate-g5" style={{ left: 129, top: 1620, width: 380 }}>
         <img alt="Produto Orion 1" className="absolute inset-0 max-w-none object-cover size-full" src={imgProdutoOrion1} />
       </div>
-      <div className="absolute h-[476px] rounded-[125px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] overflow-hidden animate-g5" style={{ left: 532, top: 1619, width: 381 }}>
+      <div className="absolute h-[476px] rounded-[48px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] overflow-hidden animate-g5" style={{ left: 532, top: 1619, width: 381 }}>
         <img alt="Produto Orion 2" className="absolute inset-0 max-w-none object-cover size-full" src={imgProdutoOrion2} />
       </div>
-      <div className="absolute h-[476px] rounded-[125px] overflow-hidden animate-g5" style={{ left: 936, top: 1619, width: 381 }}>
+      <div className="absolute h-[476px] rounded-[48px] overflow-hidden animate-g5" style={{ left: 936, top: 1619, width: 381 }}>
         <img alt="Produto Orion 3" className="absolute inset-0 max-w-none object-cover size-full" src={imgProdutoOrion3} />
       </div>
 

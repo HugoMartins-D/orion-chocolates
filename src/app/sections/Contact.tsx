@@ -18,7 +18,7 @@ function ContactField({
       <input
         type={type}
         placeholder={placeholder}
-        className="h-14 w-full rounded-full border border-[#e29647]/40 bg-[#3d2226] pr-5 pl-14 text-lg text-white placeholder:text-white/50 outline-none transition-colors focus:border-[#e29647]"
+        className="h-14 w-full rounded-2xl border border-[#e29647]/40 bg-[#3d2226] pr-5 pl-14 text-lg text-white placeholder:text-white/50 outline-none transition-colors focus:border-[#e29647]"
         style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}
       />
     </div>
@@ -51,7 +51,7 @@ export default function Contact() {
       </div>
 
       <div
-        className="animate-contact absolute flex flex-col gap-5 rounded-[48px] bg-[#532118] p-12 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.1)]"
+        className="animate-contact absolute flex flex-col gap-5 rounded-[28px] bg-[#532118] p-12 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.1)]"
         style={{ left: 651, top: 3633, width: 688, height: 667 }}
       >
         <ContactField icon={User} placeholder={t.contact.namePlaceholder} />
@@ -61,13 +61,13 @@ export default function Contact() {
           <MessageSquare className="pointer-events-none absolute top-5 left-5 h-5 w-5 text-[#e29647]/70" />
           <textarea
             placeholder={t.contact.messagePlaceholder}
-            className="h-full w-full resize-none rounded-[24px] border border-[#e29647]/40 bg-[#3d2226] py-4 pr-5 pl-14 text-lg text-white placeholder:text-white/50 outline-none transition-colors focus:border-[#e29647]"
+            className="h-full w-full resize-none rounded-2xl border border-[#e29647]/40 bg-[#3d2226] py-4 pr-5 pl-14 text-lg text-white placeholder:text-white/50 outline-none transition-colors focus:border-[#e29647]"
             style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}
           />
         </div>
         <button
           type="button"
-          className="inline-flex h-14 items-center justify-center gap-2 self-start rounded-full bg-[#e29647] px-8 text-lg font-bold text-[#532118] transition-opacity hover:opacity-90"
+          className="inline-flex h-14 items-center justify-center gap-2 self-start rounded-2xl bg-[#e29647] px-8 text-lg font-bold text-[#532118] transition-opacity hover:opacity-90"
           style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}
         >
           {t.contact.send}

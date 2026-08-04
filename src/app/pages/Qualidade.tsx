@@ -60,7 +60,7 @@ export default function Qualidade() {
                 {t.qualidade.section1Text}
               </p>
             </div>
-            <div className="fade-in h-72 overflow-hidden rounded-2xl">
+            <div className="fade-in h-72 overflow-hidden rounded-xl">
               <img
                 alt="Caixa de chocolates finos Orion embalada para presente, com laço de cetim"
                 src={imgEmbalagemPresente}
@@ -70,7 +70,7 @@ export default function Qualidade() {
           </div>
 
           <div className="flex flex-col gap-14 md:mt-16">
-            <div className="fade-in h-72 overflow-hidden rounded-2xl">
+            <div className="fade-in h-72 overflow-hidden rounded-xl">
               <img
                 alt="Lata decorativa de chocolates Orion com estampa floral"
                 src={imgLataDecorada}
