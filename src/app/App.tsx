@@ -77,6 +77,7 @@ export default function App() {
         <Contact />
       </div>
     </div>
+    <div style={{ background: '#ffffff', height: 80 }} />
     <FAQ />
     <Footer />
     </>
