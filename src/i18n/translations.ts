@@ -157,6 +157,14 @@ const pt = {
     section2Title: "Qualidade também é responsabilidade",
     section2Text:
       "A Orion busca aperfeiçoar continuamente seus processos, adotando práticas que valorizam o uso consciente dos recursos, o respeito às pessoas e a responsabilidade com o meio ambiente.",
+    stats: [
+      { value: "1958", label: "Ano de fundação" },
+      { value: "68", label: "Anos de tradição em Blumenau" },
+      { value: "5", label: "Sabores de chocolates finos" },
+      { value: "2", label: "Lojas físicas em Blumenau" },
+    ],
+    ctaText: "Quer experimentar os chocolates que essa qualidade produz?",
+    ctaButton: "Conheça nossos produtos",
   },
   trabalheConosco: {
     title: "Trabalhe conosco",
@@ -325,6 +333,14 @@ const en: typeof pt = {
     section2Title: "Quality is also responsibility",
     section2Text:
       "Orion continuously strives to improve its processes, adopting practices that value the conscious use of resources, respect for people, and responsibility toward the environment.",
+    stats: [
+      { value: "1958", label: "Year founded" },
+      { value: "68", label: "Years of tradition in Blumenau" },
+      { value: "5", label: "Fine chocolate flavors" },
+      { value: "2", label: "Physical stores in Blumenau" },
+    ],
+    ctaText: "Want to try the chocolates this quality produces?",
+    ctaButton: "Discover our products",
   },
   trabalheConosco: {
     title: "Work with us",
@@ -493,6 +509,14 @@ const es: typeof pt = {
     section2Title: "La calidad también es responsabilidad",
     section2Text:
       "Orion busca perfeccionar continuamente sus procesos, adoptando prácticas que valoran el uso consciente de los recursos, el respeto a las personas y la responsabilidad con el medio ambiente.",
+    stats: [
+      { value: "1958", label: "Año de fundación" },
+      { value: "68", label: "Años de tradición en Blumenau" },
+      { value: "5", label: "Sabores de chocolates finos" },
+      { value: "2", label: "Tiendas físicas en Blumenau" },
+    ],
+    ctaText: "¿Quieres probar los chocolates que produce esta calidad?",
+    ctaButton: "Conoce nuestros productos",
   },
   trabalheConosco: {
     title: "Trabaja con nosotros",

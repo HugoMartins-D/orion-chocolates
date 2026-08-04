@@ -87,6 +87,32 @@ export default function Qualidade() {
             </div>
           </div>
         </div>
+
+        <div className="fade-in mt-24 grid grid-cols-2 gap-y-12 border-t border-[#e8d9c8] pt-16 sm:grid-cols-4">
+          {t.qualidade.stats.map((stat) => (
+            <div key={stat.label} className="text-center">
+              <p className="text-[40px] leading-none text-[#e29647] sm:text-[48px]" style={{ fontFamily: PLAYFAIR }}>
+                {stat.value}
+              </p>
+              <p className="mt-3 px-2 text-sm leading-snug" style={{ fontFamily: DM_SANS, color: BODY_TEXT }}>
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <div className="fade-in mt-24 text-center">
+          <p className="text-lg" style={{ fontFamily: DM_SANS, color: BODY_TEXT }}>
+            {t.qualidade.ctaText}
+          </p>
+          <a
+            href="/produtos"
+            className="mt-6 inline-flex h-12 items-center justify-center rounded-[14px] bg-[#e29647] px-8 font-bold text-[#532118] transition-opacity hover:opacity-90"
+            style={{ fontFamily: DM_SANS }}
+          >
+            {t.qualidade.ctaButton}
+          </a>
+        </div>
       </main>
 
       <Footer />
