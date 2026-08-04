@@ -8,6 +8,11 @@ import Footer from "@/app/components/Footer";
 import { useNavScale } from "@/app/hooks/useNavScale";
 import { useLanguage } from "@/i18n/LanguageContext";
 import type { Translations } from "@/i18n/translations";
+import imgHistoria1958 from "@/assets/images/historia-1958-fundadores.png";
+import imgHistoria1974 from "@/assets/images/historia-1974-loja.png";
+import imgHistoria1978 from "@/assets/images/historia-1978-embalagens.png";
+import imgHistoria1980 from "@/assets/images/historia-1980-enchente.png";
+import imgHistoria2010 from "@/assets/images/historia-2010-loja-shopping.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,15 +37,12 @@ const MVV_ICONS = [Target, Eye, HeartHandshake];
 
 // One slot per milestone (1958, 1974, 1978, 1980, 2010, in that order —
 // matches the fixed order of `nossaHistoria.milestones` in every language).
-// Drop a real photo in by replacing the corresponding `null` with an
-// `import imgX from "@/assets/images/..."`; until then each card renders a
-// placeholder so the layout is already there waiting for it.
 const MILESTONE_IMAGES: (string | null)[] = [
-  null, // 1958
-  null, // 1974
-  null, // 1978
-  null, // 1980
-  null, // 2010
+  imgHistoria1958,
+  imgHistoria1974,
+  imgHistoria1978,
+  imgHistoria1980,
+  imgHistoria2010,
 ];
 
 function MilestoneImage({ src, alt, placeholderLabel }: { src: string | null; alt: string; placeholderLabel: string }) {
