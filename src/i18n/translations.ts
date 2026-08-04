@@ -160,7 +160,6 @@ const pt = {
     stats: [
       { value: "1958", label: "Ano de fundação" },
       { value: "68", label: "Anos de tradição em Blumenau" },
-      { value: "5", label: "Sabores de chocolates finos" },
       { value: "2", label: "Lojas físicas em Blumenau" },
     ],
     ctaText: "Quer experimentar os chocolates que essa qualidade produz?",
@@ -336,7 +335,6 @@ const en: typeof pt = {
     stats: [
       { value: "1958", label: "Year founded" },
       { value: "68", label: "Years of tradition in Blumenau" },
-      { value: "5", label: "Fine chocolate flavors" },
       { value: "2", label: "Physical stores in Blumenau" },
     ],
     ctaText: "Want to try the chocolates this quality produces?",
@@ -512,7 +510,6 @@ const es: typeof pt = {
     stats: [
       { value: "1958", label: "Año de fundación" },
       { value: "68", label: "Años de tradición en Blumenau" },
-      { value: "5", label: "Sabores de chocolates finos" },
       { value: "2", label: "Tiendas físicas en Blumenau" },
     ],
     ctaText: "¿Quieres probar los chocolates que produce esta calidad?",

@@ -88,7 +88,7 @@ export default function Qualidade() {
           </div>
         </div>
 
-        <div className="fade-in mt-24 grid grid-cols-2 gap-y-12 border-t border-[#e8d9c8] pt-16 sm:grid-cols-4">
+        <div className="fade-in mt-24 grid grid-cols-3 gap-y-12 border-t border-[#e8d9c8] pt-16">
           {t.qualidade.stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-[40px] leading-none text-[#e29647] sm:text-[48px]" style={{ fontFamily: PLAYFAIR }}>
