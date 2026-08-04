@@ -27,27 +27,12 @@ export default function TrabalheConosco() {
     () => {
       gsap.set(".fade-in", { opacity: 0, y: 24 });
       gsap.to(".fade-in", { opacity: 1, y: 0, duration: 1, stagger: 0.12, ease: "power3.out" });
-
-      // Slow, continuous drift — not tied to scroll or hover, just a bit of
-      // life behind the content so the page doesn't read as a flat, static
-      // form. Kept subtle (low opacity, blurred) so it never competes with
-      // the actual text/photo for attention.
-      gsap.to(".tc-blob-1", { y: -36, x: 24, rotate: 12, duration: 9, ease: "sine.inOut", yoyo: true, repeat: -1 });
-      gsap.to(".tc-blob-2", { y: 30, x: -20, rotate: -14, duration: 11, ease: "sine.inOut", yoyo: true, repeat: -1, delay: 0.6 });
-      gsap.to(".tc-blob-3", { y: -22, x: -28, rotate: 18, duration: 10, ease: "sine.inOut", yoyo: true, repeat: -1, delay: 1.2 });
     },
     { scope },
   );
 
   return (
-    <div ref={scope} className="relative min-h-screen overflow-hidden bg-white">
-      {/* Decorative blobs, purely animated background texture — pointer-events
-          off and behind everything (z-0), so they never interfere with the
-          real content sitting at z-10. */}
-      <div className="tc-blob-1 pointer-events-none absolute top-[-120px] right-[-140px] z-0 h-[420px] w-[420px] rounded-full opacity-[0.14] blur-3xl" style={{ background: "#e29647" }} />
-      <div className="tc-blob-2 pointer-events-none absolute top-[520px] left-[-160px] z-0 h-[380px] w-[380px] rounded-full opacity-[0.12] blur-3xl" style={{ background: "#532118" }} />
-      <div className="tc-blob-3 pointer-events-none absolute top-[900px] right-[8%] z-0 h-[320px] w-[320px] rounded-full opacity-[0.1] blur-3xl" style={{ background: "#e29647" }} />
-
+    <div ref={scope} className="relative min-h-screen bg-white">
       <header
         className="sticky top-0 z-30 w-full border-b bg-white/95 backdrop-blur-sm"
         style={{ height: 64 * scale, borderColor: HEADER_BORDER }}
@@ -57,7 +42,7 @@ export default function TrabalheConosco() {
         </div>
       </header>
 
-      <main className="relative z-10 mx-auto max-w-6xl px-6 pt-20 pb-32">
+      <main className="mx-auto max-w-6xl px-6 pt-20 pb-32">
         <h1
           className="fade-in text-[42px] leading-[1.1] sm:text-[56px]"
           style={{ fontFamily: PLAYFAIR, color: TITLE_COLOR }}
