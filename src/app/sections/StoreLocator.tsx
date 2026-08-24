@@ -14,14 +14,16 @@ export const STORES = [
   {
     id: "itoupavaNorte" as const,
     address: "R. 7 de Maio, 1600 - Itoupava Norte, Blumenau - SC, 89052-385",
-    lat: -26.8949071,
-    lng: -49.0681027,
+    lat: -26.8866763,
+    lng: -49.0685402,
+    hours: ["Segunda a Sábado: 10h - 22h", "Domingo: 14h - 20h"],
   },
   {
     id: "centro" as const,
     address: "R. Curt Hering, 226 - Centro, Blumenau - SC, 89010-030",
     lat: -26.9210373,
     lng: -49.0653646,
+    hours: ["Segunda a Sexta: 08:30 - 19h", "Sábado: 08:40 - 13:30"],
   },
 ];
 
@@ -31,7 +33,7 @@ const orionPinIcon = L.divIcon({
   className: "", // clears Leaflet's default "leaflet-div-icon" white square background
   html: `
     <svg width="32" height="42" viewBox="0 0 32 42" xmlns="http://www.w3.org/2000/svg">
-      <path d="M16 0C7.163 0 0 7.163 0 16c0 11 16 26 16 26s16-15 16-26C32 7.163 24.837 0 16 0z" fill="#e29647" stroke="#251116" stroke-width="1.5"/>
+      <path d="M16 0C7.163 0 0 7.163 0 16c0 11 16 26 16 26s16-15 16-26C32 7.163 24.837 0 16 0z" fill="#e4693a" stroke="#251116" stroke-width="1.5"/>
       <circle cx="16" cy="16" r="6" fill="#251116"/>
     </svg>
   `,
@@ -58,7 +60,7 @@ function StoreLocatorMap() {
       L.marker([store.lat, store.lng], { icon: orionPinIcon })
         .addTo(map)
         .bindPopup(
-          `<span class="orion-popup-title">${t.stores[store.id]}</span><span class="orion-popup-address">${store.address}</span><a class="orion-popup-cta" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(store.address)}" target="_blank" rel="noopener noreferrer">${t.storeLocator.mapCta}</a>`,
+          `<span class="orion-popup-title">${t.stores[store.id]}</span><span class="orion-popup-address">${store.address}</span><span class="orion-popup-hours">${store.hours.join("<br />")}</span><a class="orion-popup-cta" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(store.address)}" target="_blank" rel="noopener noreferrer">${t.storeLocator.mapCta}</a>`,
           { className: "orion-popup", closeButton: true },
         );
     });

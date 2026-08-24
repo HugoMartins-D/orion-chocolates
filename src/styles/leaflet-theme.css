@@ -2,11 +2,11 @@
    styled with the site's fonts/colors/rounded pill language. */
 
 .orion-map .leaflet-tile-pane {
-  filter: sepia(55%) saturate(140%) hue-rotate(-12deg) brightness(0.94) contrast(1.05);
+  filter: sepia(55%) saturate(170%) hue-rotate(-24deg) brightness(0.5) contrast(1.1);
 }
 
 .orion-map {
-  background: #fdf1e3;
+  background: #3d2226;
 }
 
 /* zoom control */
@@ -18,7 +18,7 @@
 }
 .orion-map .leaflet-control-zoom a:hover {
   background-color: #fdf1e3;
-  color: #e29647;
+  color: #e4693a;
 }
 
 /* attribution */
@@ -52,7 +52,7 @@
 
 .orion-popup-title {
   font-family: "Vesper Nocturne", serif;
-  color: #e29647;
+  color: #e4693a;
   font-size: 16px;
   display: block;
   margin-bottom: 4px;
@@ -64,9 +64,15 @@
   display: block;
   margin-bottom: 8px;
 }
+.orion-popup-hours {
+  color: #f5e6d3;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 8px;
+}
 .orion-popup-cta {
   display: inline-block;
-  background: #e29647;
+  background: #e4693a;
   color: #532118 !important;
   font-weight: 700;
   font-size: 13px;
@@ -75,5 +81,5 @@
   text-decoration: none !important;
 }
 .orion-popup-cta:hover {
-  background: #f0aa63;
+  background: #ee8862;
 }
