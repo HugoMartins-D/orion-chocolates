@@ -45,6 +45,9 @@ export default function Contact() {
             <div style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}>
               <p className="text-lg font-bold text-[#532118]">{t.stores[store.id]}</p>
               <p className="text-base text-[#6a6a6a]">{store.address}</p>
+              {store.hours.map((hours) => (
+                <p key={hours} className="text-base text-[#6a6a6a]">{hours}</p>
+              ))}
             </div>
           </div>
         ))}

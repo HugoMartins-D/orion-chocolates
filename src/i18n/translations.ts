@@ -46,7 +46,7 @@ const pt = {
     mapCta: "Como chegar",
   },
   stores: {
-    itoupavaNorte: "Loja Itoupava Norte",
+    itoupavaNorte: "Loja Shopping Park Europeu",
     centro: "Loja Centro",
   },
   contact: {
@@ -66,7 +66,7 @@ const pt = {
       {
         question: "Onde posso encontrar os chocolates Orion?",
         answer:
-          "Temos duas lojas físicas em Blumenau — Itoupava Norte e Centro. Você pode ver o endereço exato de cada uma na seção \"Onde encontrar\" logo acima, com um mapa interativo pra escolher a mais próxima de você.",
+          "Temos duas lojas físicas em Blumenau — Shopping Park Europeu e Centro. Você pode ver o endereço exato de cada uma na seção \"Onde encontrar\" logo acima, com um mapa interativo pra escolher a mais próxima de você.",
       },
       {
         question: "Quais sabores de chocolate vocês oferecem?",
@@ -228,7 +228,7 @@ const en: typeof pt = {
     mapCta: "Get directions",
   },
   stores: {
-    itoupavaNorte: "Itoupava Norte Store",
+    itoupavaNorte: "Shopping Park Europeu Store",
     centro: "Downtown Store",
   },
   contact: {
@@ -248,7 +248,7 @@ const en: typeof pt = {
       {
         question: "Where can I find Orion chocolates?",
         answer:
-          "We have two physical stores in Blumenau — Itoupava Norte and Downtown. You can see the exact address of each one in the \"Find a store\" section above, with an interactive map to pick whichever is closest to you.",
+          "We have two physical stores in Blumenau — Shopping Park Europeu and Downtown. You can see the exact address of each one in the \"Find a store\" section above, with an interactive map to pick whichever is closest to you.",
       },
       {
         question: "What chocolate flavors do you offer?",
@@ -410,7 +410,7 @@ const es: typeof pt = {
     mapCta: "Cómo llegar",
   },
   stores: {
-    itoupavaNorte: "Tienda Itoupava Norte",
+    itoupavaNorte: "Tienda Shopping Park Europeu",
     centro: "Tienda Centro",
   },
   contact: {
@@ -430,7 +430,7 @@ const es: typeof pt = {
       {
         question: "¿Dónde puedo encontrar los chocolates Orion?",
         answer:
-          "Tenemos dos tiendas físicas en Blumenau — Itoupava Norte y Centro. Puedes ver la dirección exacta de cada una en la sección \"Dónde encontrarnos\" más arriba, con un mapa interactivo para elegir la más cercana a ti.",
+          "Tenemos dos tiendas físicas en Blumenau — Shopping Park Europeu y Centro. Puedes ver la dirección exacta de cada una en la sección \"Dónde encontrarnos\" más arriba, con un mapa interactivo para elegir la más cercana a ti.",
       },
       {
         question: "¿Qué sabores de chocolate ofrecen?",

@@ -19,9 +19,18 @@ export default function Hero() {
       <div className="absolute" style={{ top: 179, left: 123, width: 1092 }}>
         <p
           className="hero-title animate-g7 [word-break:break-word] text-[72px] leading-[1.1] text-[#e29647]"
-          style={{ fontFamily: "'Vesper Nocturne', serif" }}
+          style={{ fontFamily: "'Vesper Nocturne', serif", fontKerning: "normal" }}
         >
-          {t.hero.title}
+          {t.hero.title.split(/(chocolates)/i).map((part, index) =>
+            part.toLowerCase() === "chocolates" ? (
+              <span key={`${part}-${index}`}>
+                <span className="mr-[0.01em]">{part[0]}</span>
+                {part.slice(1)}
+              </span>
+            ) : (
+              part
+            ),
+          )}
         </p>
         <p
           className="animate-g7 [word-break:break-word] mt-10 max-w-[943px] text-[24px] leading-[1.16] not-italic text-[#e29647]"
