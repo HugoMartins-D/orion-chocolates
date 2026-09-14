@@ -10,7 +10,7 @@ import { useLanguage } from "@/i18n/LanguageContext";
 import type { Translations } from "@/i18n/translations";
 import imgHistoria1958 from "@/assets/images/historia-1958-fundadores.png";
 import imgHistoria1974 from "@/assets/images/historia-1974-loja.png";
-import imgHistoria1978 from "@/assets/images/historia-1978-embalagens.png";
+import imgHistoria1978 from "@/assets/images/historia-1978-embalagens-B0zFG-Te.png";
 import imgHistoria1980 from "@/assets/images/historia-1980-enchente.png";
 import imgHistoria2010 from "@/assets/images/historia-2010-loja-shopping.png";
 
