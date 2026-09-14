@@ -36,7 +36,7 @@ export default function Products() {
       <div className="absolute h-[476px] rounded-[48px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] overflow-hidden animate-g5" style={{ left: 532, top: 1619, width: 381 }}>
         <img alt="Barra de chocolate Orion em embalagem verde" className="absolute inset-0 max-w-none object-contain bg-white size-full" src={imgProdutoOrion2} />
       </div>
-      <div className="absolute h-[476px] rounded-[48px] overflow-hidden animate-g5" style={{ left: 936, top: 1619, width: 381 }}>
+      <div className="absolute h-[476px] rounded-[48px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] overflow-hidden animate-g5" style={{ left: 936, top: 1619, width: 381 }}>
         <img alt="Barra de chocolate Orion em embalagem azul" className="absolute inset-0 max-w-none object-contain bg-white size-full" src={imgProdutoOrion3} />
       </div>
 
