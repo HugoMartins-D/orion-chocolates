@@ -16,7 +16,7 @@ export default function Products() {
           top-positioned with just enough room for the Portuguese copy. */}
       <div className="absolute flex flex-col items-center text-center" style={{ top: 1298, left: 70, width: 1300 }}>
         <p
-          className="animate-g5 [word-break:break-word] leading-[1.1] not-italic text-[89px] text-[#532118]"
+          className="animate-g5 [word-break:break-word] leading-[1.1] not-italic text-[89px] text-[#5c3d31]"
           style={{ fontFamily: "'Vesper Nocturne', serif" }}
         >
           {t.products.title}
@@ -44,7 +44,7 @@ export default function Products() {
         <div className={`${PILL} bg-[#281016] text-[#e29647]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
           {t.products.ctaProducts}
         </div>
-        <div className={`${PILL} border border-[#e29647] border-solid not-italic text-[#532118]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
+        <div className={`${PILL} border border-[#e29647] border-solid not-italic text-[#5c3d31]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
           {t.products.ctaShop}
         </div>
       </div>

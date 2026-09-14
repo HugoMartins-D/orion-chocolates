@@ -11,7 +11,7 @@ const HEADER_BORDER = "#e8d9c8";
 
 export function LegalHeading({ children }: { children: ReactNode }) {
   return (
-    <h2 className="mt-12 text-2xl first:mt-0" style={{ fontFamily: PLAYFAIR, color: "#532118" }}>
+    <h2 className="mt-12 text-2xl first:mt-0" style={{ fontFamily: PLAYFAIR, color: "#5c3d31" }}>
       {children}
     </h2>
   );
@@ -70,7 +70,7 @@ export default function LegalPageLayout({
       <main className="fade-in mx-auto max-w-3xl px-6 pt-20 pb-32">
         <h1
           className="text-[36px] leading-[1.1] sm:text-[48px]"
-          style={{ fontFamily: PLAYFAIR, color: "#532118" }}
+          style={{ fontFamily: PLAYFAIR, color: "#5c3d31" }}
         >
           {title}
         </h1>

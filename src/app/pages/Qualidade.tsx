@@ -14,7 +14,7 @@ const DM_SANS = "'Creato Display', 'DM Sans', sans-serif";
 const BG = "#ffffff";
 const HEADER_BG = "#fffffff2";
 const HEADER_BORDER = "#e8d9c8";
-const BODY_TEXT = "#532118";
+const BODY_TEXT = "#5c3d31";
 
 export default function Qualidade() {
   const scale = useNavScale();
@@ -107,7 +107,7 @@ export default function Qualidade() {
           </p>
           <a
             href="/produtos"
-            className="mt-6 inline-flex h-12 items-center justify-center rounded-[14px] bg-[#e29647] px-8 font-bold text-[#532118] transition-opacity hover:opacity-90"
+            className="mt-6 inline-flex h-12 items-center justify-center rounded-[14px] bg-[#e29647] px-8 font-bold text-[#5c3d31] transition-opacity hover:opacity-90"
             style={{ fontFamily: DM_SANS }}
           >
             {t.qualidade.ctaButton}

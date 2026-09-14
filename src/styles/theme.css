@@ -4,20 +4,20 @@
   --font-size: 16px;
   /* ORION brand palette (replaces the default shadcn grayscale theme) */
   --background: #ffffff;
-  --foreground: #532118;
+  --foreground: #5c3d31;
 
   --card: #ffffff;
-  --card-foreground: #532118;
+  --card-foreground: #5c3d31;
   --popover: #ffffff;
   --popover-foreground: #251116;
   --primary: #e29647;
-  --primary-foreground: #532118;
+  --primary-foreground: #5c3d31;
   --secondary: #251116;
   --secondary-foreground: #e29647;
   --muted: #fdf1e3;
   --muted-foreground: #6a6a6a;
   --accent: #fdf1e3;
-  --accent-foreground: #532118;
+  --accent-foreground: #5c3d31;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
   --border: #e8d9c8;

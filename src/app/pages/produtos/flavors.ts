@@ -43,7 +43,7 @@ export const flavors: Flavor[] = [
     id: "ao-leite",
     name: "AO LEITE",
     tagline: ["SUAVE, DOCE", "E ACONCHEGANTE."],
-    bg: "#532118",
+    bg: "#5c3d31",
     blob: "#3c120a",
     dotActive: "#3c120a",
     dotInactive: "#63362c",

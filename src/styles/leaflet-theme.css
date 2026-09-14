@@ -12,7 +12,7 @@
 /* zoom control */
 .orion-map .leaflet-control-zoom a {
   background-color: #ffffff;
-  color: #532118;
+  color: #5c3d31;
   border: 1px solid #e8d9c8 !important;
   font-family: "Creato Display", "DM Sans", sans-serif;
 }
@@ -28,7 +28,7 @@
   font-family: "Creato Display", "DM Sans", sans-serif;
 }
 .orion-map .leaflet-control-attribution a {
-  color: #532118;
+  color: #5c3d31;
 }
 
 /* popup */
@@ -73,7 +73,7 @@
 .orion-popup-cta {
   display: inline-block;
   background: #e4693a;
-  color: #532118 !important;
+  color: #5c3d31 !important;
   font-weight: 700;
   font-size: 13px;
   padding: 6px 14px;

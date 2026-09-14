@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <div className="absolute contents">
-      <p className="[word-break:break-word] absolute leading-[1.1] not-italic text-[#532118] text-[72px] whitespace-nowrap animate-contact" style={{ fontFamily: "'Vesper Nocturne', serif", left: 129, top: 3633 }}>{t.contact.title}</p>
+      <p className="[word-break:break-word] absolute leading-[1.1] not-italic text-[#5c3d31] text-[72px] whitespace-nowrap animate-contact" style={{ fontFamily: "'Vesper Nocturne', serif", left: 129, top: 3633 }}>{t.contact.title}</p>
       <div className="[word-break:break-word] absolute leading-[0] not-italic text-[#e09748] text-[24px] animate-contact" style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif", left: 129, top: 3715, width: 522 }}>
         <p className="leading-[1.1] mb-0 animate-contact">{t.contact.leadLine1}</p>
         <p className="leading-[1.1] animate-contact">{t.contact.leadLine2}</p>
@@ -43,7 +43,7 @@ export default function Contact() {
               <MapPin className="h-5 w-5 text-[#e29647]" />
             </div>
             <div style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}>
-              <p className="text-lg font-bold text-[#532118]">{t.stores[store.id]}</p>
+              <p className="text-lg font-bold text-[#5c3d31]">{t.stores[store.id]}</p>
               <p className="text-base text-[#6a6a6a]">{store.address}</p>
               {store.hours.map((hours) => (
                 <p key={hours} className="text-base text-[#6a6a6a]">{hours}</p>
@@ -54,7 +54,7 @@ export default function Contact() {
       </div>
 
       <div
-        className="animate-contact absolute flex flex-col gap-5 rounded-[28px] bg-[#532118] p-12 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.1)]"
+        className="animate-contact absolute flex flex-col gap-5 rounded-[28px] bg-[#5c3d31] p-12 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.1)]"
         style={{ left: 651, top: 3633, width: 688, height: 667 }}
       >
         <ContactField icon={User} placeholder={t.contact.namePlaceholder} />
@@ -70,7 +70,7 @@ export default function Contact() {
         </div>
         <button
           type="button"
-          className="inline-flex h-14 items-center justify-center gap-2 self-start rounded-2xl bg-[#e29647] px-8 text-lg font-bold text-[#532118] transition-opacity hover:opacity-90"
+          className="inline-flex h-14 items-center justify-center gap-2 self-start rounded-2xl bg-[#e29647] px-8 text-lg font-bold text-[#5c3d31] transition-opacity hover:opacity-90"
           style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}
         >
           {t.contact.send}

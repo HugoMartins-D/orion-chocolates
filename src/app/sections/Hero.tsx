@@ -42,7 +42,7 @@ export default function Hero() {
           <div className={`${PILL} bg-[#281016] text-[#e29647]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
             {t.hero.ctaProducts}
           </div>
-          <div className={`${PILL} bg-[#e29647] not-italic text-[#532118]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
+          <div className={`${PILL} bg-[#e29647] not-italic text-[#5c3d31]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
             {t.hero.ctaContact}
           </div>
         </div>
