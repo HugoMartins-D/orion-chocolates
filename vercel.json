@@ -1,5 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
   "functions": {
     "api/chat.ts": {
       "runtime": "@vercel/node@3.2.26",
