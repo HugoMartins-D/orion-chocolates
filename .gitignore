@@ -27,6 +27,17 @@ pnpm-debug.log*
 # Local tooling config (not part of the site itself)
 .claude/
 .agents/
+.mcp.json
+CLAUDE.md
 skills-lock.json
 # Added by code-review-graph
 .code-review-graph/
+
+# Lockfile do chatbot em dev isolado — o site usa pnpm
+package-lock.json
+orionchabot/node_modules
+orionchabot/package-lock.json
+orionchabot/dist
+orionchabot/files.zip
+orionchabot/*.docx
+orionchabot/*.xlsx
