@@ -34,12 +34,12 @@ export default function History() {
           {t.history.title}
         </p>
         <p
-          className="animate-g6 [word-break:break-word] mt-6 max-w-[1100px] text-right text-[24px] leading-[1.16] not-italic text-[#532118]"
+          className="animate-g6 [word-break:break-word] mt-6 max-w-[1100px] text-right text-[24px] leading-[1.16] not-italic text-[#5c3d31]"
           style={{ fontFamily: "'Creato Display', 'DM Sans', sans-serif" }}
         >
           {t.history.lead}
         </p>
-        <div className={`${PILL} animate-g6 mt-6 bg-[#e29647] text-[#532118]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
+        <div className={`${PILL} animate-g6 mt-6 bg-[#e29647] text-[#5c3d31]`} style={{ fontFamily: "'Creato Display', sans-serif" }}>
           {t.history.cta}
         </div>
       </div>

@@ -12,7 +12,7 @@ const PLAYFAIR = "'Vesper Nocturne', serif";
 const DM_SANS = "'Creato Display', 'DM Sans', sans-serif";
 
 const HEADER_BORDER = "#e8d9c8";
-const TITLE_COLOR = "#532118";
+const TITLE_COLOR = "#5c3d31";
 const LEAD_COLOR = "#e29647";
 const CARD_BORDER = "#e8d9c8";
 

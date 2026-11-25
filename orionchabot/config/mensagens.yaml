@@ -1,0 +1,24 @@
+# Mensagens fixas aprovadas pelo cliente (P13, P40, P42).
+# USAR LITERALMENTE. Qualquer ajuste de redação passa pelo cliente.
+
+boas_vindas: |
+  Olá! Sou o assistente virtual da Chocolates Orion. Como posso ajudar? 🍫
+
+  1 – Produtos
+  2 – Contatos
+  3 – Endereços
+  4 – Pedidos
+
+encerramento: "Agradecemos o seu contato. Estamos sempre à disposição para mais informações."
+
+fora_horario: "Olá! 👋 No momento, nosso atendimento humano está fora do horário. Você pode deixar sua mensagem normalmente e nossa equipe responderá às mensagens recebidas assim que o atendimento for retomado. Enquanto isso, posso ajudar com informações sobre produtos, lojas, pedidos e outras dúvidas. 🍫"
+
+informacao_ausente: "Não consegui confirmar essa informação por aqui. Para evitar passar uma orientação incorreta, vou direcionar você para nossa equipe de atendimento. 🙂"
+
+falha_tecnica: "Não consegui concluir esse atendimento no momento. Por favor, entre em contato com nossa equipe pelo WhatsApp para que possamos ajudar você."
+
+# Aviso fixo de contaminação cruzada (seção 4 das regras). Inserido por código.
+aviso_alergia: |
+  Importante sobre alergias e restrições: a Orion é uma empresa de pequeno porte e não possui área de produção totalmente segregada. Mesmo quando um ingrediente não faz parte da receita, não é possível garantir ausência de vestígios em nenhum produto. Vestígios possíveis em qualquer item: leite, castanha-de-caju, castanha-do-pará, amendoim, avelã, amêndoas e glúten. Para alergias severas, consulte sempre a embalagem e a nossa equipe antes de consumir.
+
+label_whatsapp: "Falar com a equipe no WhatsApp"

@@ -1,0 +1,49 @@
+# Dados operacionais da Orion. Alterar aqui, nunca no código.
+# Mudanças de telefone/endereço/horário entram em produção sem redeploy de lógica.
+
+whatsapp_humano: "5547996702584"
+
+lojas:
+  centro:
+    nome: "Unidade Centro"
+    endereco: "Rua Curt Hering, 226, Centro, Blumenau/SC, CEP 89010-030"
+    maps_url: "https://www.google.com/maps/search/?api=1&query=Chocolates+Orion+Rua+Curt+Hering+226+Centro+Blumenau"
+    whatsapp: "+55 47 99670-2584"
+    telefone_fixo: "+55 47 3037-1661"
+    horario_loja:
+      seg_sex: "08:30-19:00"
+      sab: "08:40-13:30"
+      dom: "fechado"
+    horario_delivery:
+      seg_sex: "09:00-18:00"
+      sab: "09:00-12:00"
+    horario_retirada: "09:00-18:00"
+    atende_delivery: true
+
+  park_europeu:
+    nome: "Unidade Shopping Park Europeu"
+    endereco: "Rodovia Paul Fritz Kuehnrich, 1600, 1º piso (próxima à academia), Itoupava Norte, Blumenau/SC, CEP 89052-380"
+    maps_url: "https://maps.app.goo.gl/z4fZXqnCMmYbg4La6"
+    whatsapp: "+55 47 8926-9780"  # PENDENTE: 8 dígitos, confirmar
+    telefone_fixo: "+55 47 3337-5383"
+    horario_loja:
+      seg_sab: "10:00-22:00"
+      dom: "14:00-20:00"
+    atende_delivery: false
+
+# Horário do atendimento humano no WhatsApp (fuso America/Sao_Paulo).
+# P4 do questionário — P39 diverge (10h-18h). Pendente unificar; usando o teto.
+atendimento_humano:
+  timezone: "America/Sao_Paulo"
+  seg_sex:
+    inicio: "10:00"
+    fim: "18:30"
+  sab:
+    inicio: "09:00"
+    fim: "13:00"
+  dom: null
+  feriados: []
+
+link_delivery: ""  # a confirmar com o cliente
+instagram: "https://instagram.com/chocolatesorion"
+linktree: "https://linktr.ee/chocolatesorion"

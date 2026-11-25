@@ -1,0 +1,91 @@
+# Gatilhos de intenção de alergia/restrição.
+# Qualquer match aqui ativa o modo alergia: resposta restrita ao CSV + aviso fixo + handoff.
+# Regra tolerante a acentos — comparar em lowercase e sem diacríticos.
+
+gatilhos:
+  - alergia
+  - alergico
+  - alérgico
+  - alergias
+  - intolerancia
+  - intolerância
+  - intolerante
+  - gluten
+  - glúten
+  - celiaco
+  - celíaco
+  - celiaca
+  - celíaca
+  - lactose
+  - leite  # ambíguo, mas com outros sinais costuma indicar alergia
+  - diabetes
+  - diabetico
+  - diabético
+  - diabetica
+  - diabética
+  - vegano
+  - vegana
+  - vegetariano
+  - vegetariana
+  - restricao
+  - restrição
+  - restricoes
+  - restrições
+  - sem acucar
+  - sem açúcar
+  - sem lactose
+  - sem gluten
+  - sem glúten
+  - alergenico
+  - alergênico
+  - alergenicos
+  - alergênicos
+  - vestigio
+  - vestígio
+  - contaminacao
+  - contaminação
+  - amendoim
+  - castanha
+  - avela
+  - avelã
+  - amendoa
+  - amêndoa
+  - oleaginosa
+
+# Assuntos que SEMPRE vão para o humano (P10). Match no texto ativa handoff direto.
+assuntos_humano:
+  - reclamacao
+  - reclamação
+  - troca
+  - trocar
+  - reembolso
+  - cancela
+  - cancelar
+  - cancelamento
+  - cancelou
+  - desconto
+  - cupom
+  - cupom de
+  - codigo promocional
+  - código promocional
+  - promocao
+  - promoção
+  - reserva
+  - reservar
+  - encomenda personalizada
+  - personalizado
+  - personalizacao
+  - personalização
+  - grande volume
+  - atacado
+  - revenda
+  - problema
+  - derretido
+  - quebrado
+  - estragado
+  - vencido
+  - nao recebi
+  - não recebi
+  - atraso
+  - endereco errado
+  - endereço errado

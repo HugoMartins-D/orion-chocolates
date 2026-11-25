@@ -1,0 +1,66 @@
+# Termos e promessas bloqueados na saída do modelo (seção 2 e 4 das regras).
+# Ordem: match no texto gerado → reescrita ou bloqueio com `informacao_ausente` + handoff.
+
+termos_bloqueados:
+  # Linguagem de marca (P12)
+  - termo: "artesanal"
+    acao: "reescrever"
+    substituir_por: "fino"
+  - termo: "caseiro"
+    acao: "reescrever"
+    substituir_por: "fino"
+  - termo: "chocolate artesanal"
+    acao: "reescrever"
+    substituir_por: "chocolates finos"
+  - termo: "chocolate caseiro"
+    acao: "reescrever"
+    substituir_por: "chocolates finos"
+  - termo: "querida"
+    acao: "remover"
+  - termo: "com amor"
+    acao: "remover"
+  # "nozes" genérico (seção 4): cada oleaginosa pelo nome
+  - termo: "nozes"
+    acao: "bloquear_resposta"
+
+# Afirmações proibidas no contexto de alergia/restrição.
+afirmacoes_seguranca_bloqueadas:
+  - "é seguro"
+  - "é segura"
+  - "pode comer"
+  - "pode consumir"
+  - "sem risco"
+  - "100%"
+  - "totalmente seguro"
+  - "totalmente livre"
+  - "livre de"
+  - "garantido sem"
+  - "garantida sem"
+  - "indicado para celiacos"
+  - "indicado para celíacos"
+  - "indicado para diabeticos"
+  - "indicado para diabéticos"
+  - "próprio para diabéticos"
+  - "proprio para diabeticos"
+
+# Promessas que SEMPRE caem no humano (P27-P37).
+promessas_bloqueadas:
+  - "troca garantida"
+  - "reembolso garantido"
+  - "cancelamos"
+  - "vamos trocar"
+  - "vou trocar"
+  - "trocamos sim"
+  - "vamos reembolsar"
+  - "em até 30 minutos"
+  - "em 30 minutos"
+  - "até 24 horas"
+  - "em 24h"
+  - "prazo de resposta"
+  - "temos em estoque"
+  - "está disponível"
+  - "disponível agora"
+  - "garantia de"
+  - "cupom de 10%"
+  - "cupom de boas-vindas"
+  - "desconto de 10% na primeira"

@@ -43,7 +43,7 @@ function FAQItem({
         onClick={onToggle}
         className="flex w-full cursor-pointer items-center justify-between gap-6 py-6 text-left"
       >
-        <span className="text-lg font-bold text-[#532118]" style={{ fontFamily: DM_SANS }}>
+        <span className="text-lg font-bold text-[#5c3d31]" style={{ fontFamily: DM_SANS }}>
           {question}
         </span>
         <div
@@ -96,7 +96,7 @@ export default function FAQ() {
             {t.faq.eyebrow}
           </p>
           <h2
-            className="mt-4 text-[36px] leading-[1.1] text-[#532118] sm:text-[48px]"
+            className="mt-4 text-[36px] leading-[1.1] text-[#5c3d31] sm:text-[48px]"
             style={{ fontFamily: PLAYFAIR }}
           >
             {t.faq.title}
